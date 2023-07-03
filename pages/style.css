@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: arial;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+header{
+    margin-bottom: 30px;
+}
+
+#menu_mob ul{
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    justify-content: space-between;
+    gap:30px;
+}
